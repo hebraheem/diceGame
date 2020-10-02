@@ -45,10 +45,7 @@ function rollThree() {
     let randomImageSource2 = "images/" + randomDiceImage2;
     let image2 = document.querySelectorAll("img")[2];
     image2.setAttribute("src",randomImageSource2);
-}
-let playerbtn3 = document.querySelectorAll(".btn")[3];
-playerbtn3.addEventListener("click", rollFour);
-function rollFour() {
+
     let randomNumber3 = Math.floor(Math.random()*6)+ 1;
     let randomDiceImage3 = "dice" + randomNumber3 + ".png";
     let randomImageSource3 = "images/" + randomDiceImage3;
