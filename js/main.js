@@ -3,7 +3,7 @@ let player = document.querySelector(".gamepad");
 let select = document.querySelector("select")
 
 
-select.addEventListener("click", Choose)
+select.addEventListener("change", Choose)
 function Choose(){
     if (select.value == "Choose player"){
         player.style.display = "none";
