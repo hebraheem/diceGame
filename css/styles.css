@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navbar styling */
+.Navbar {
+    width: 100%;
+    background: grey;
+    padding: 0 15%;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.navbar-brand {
+    color: aliceblue;
+    font-family: fantasy;
+    font-size: 2.5rem;
+}
+.navbar-brand:hover {
+    color: yellowgreen;
+}
+.nav-link {
+    color: aliceblue;
+}
+.nav-link:hover {
+    color: yellowgreen;
+}
+.navbar-toggler {
+    color: aliceblue;
+    outline: none;
+    border: none;
+}
+/* FEATURES STYLING */
+.features {
+    background: url("../images/ROLL\ THE\ DICE.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35rem;
+    width: 100%;
+}
+/* GAME STYLING */
+.game {
+    padding: 10% 12%;
+}
+.gamepad {
+    text-align: center;
+    margin-bottom: 5%;
+}
+.banner {
+    text-align: center;
+}
+select {
+    width: 30%;
+    height:2rem;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    color: red;
+    border: solid red;
+    padding-left: 10px;
+}
+.gametext h1 {
+    padding-bottom: 5%;
+}
+.gamebtn {
+    margin-top: 5%;
+    width: 100px;
+}
+
+
+@media(max-width: 550px){
+    .Navbar {
+        padding: 0 3%;
+    }
+    .gametext h1 {
+        padding-bottom: 5%;
+        font-size: 1.8rem;
+    }
+    .game {
+        padding: 10% 5%;
+    }
+}
