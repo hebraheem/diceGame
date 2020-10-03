@@ -11,7 +11,14 @@ html {
     width: 100%;
     background: grey;
     padding: 0 15%;
+    position: fixed;
+    z-index: 1;
+    background-color: tomato;
 }
+.nav-item:hover {
+    border-bottom: solid salmon;
+}
+
 .navbar-nav {
     margin-left: auto;
 }
@@ -73,8 +80,9 @@ select {
 }
 #footer {
     background-color: tomato;
-    padding: 0% 15%;
     height: 70px;
+    padding: 0% 15%;
+
 }
 .foter {
     text-align: center;
@@ -82,7 +90,11 @@ select {
     color: aliceblue;
     padding: 1% 0;
 }
-
+@media(max-width: 990px){
+    .nav-link {
+        text-align: center;
+    }
+}
 
 @media(max-width: 550px){
     .Navbar {
